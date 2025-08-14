@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --glass-bg: rgba(255,255,255,0.06);
+  --glass-border: rgba(255,255,255,0.15);
+}
+
+.glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+}
+
+.section {
+  @apply py-20 md:py-24;
+}
+
+.section-title {
+  @apply text-2xl md:text-3xl font-semibold tracking-tight;
+}
+
+.muted {
+  @apply text-slate-400;
+}
+
+/* subtle gradient overlay to improve contrast above the particles */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(1200px 400px at 70% -10%, rgba(50,102,255,0.25), transparent 60%),
+              radial-gradient(900px 400px at 10% -10%, rgba(168,85,247,0.18), transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+}
+.section { @apply py-20 md:py-24; }
+.muted { @apply text-slate-400; }
+.glass {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+}
