@@ -196,7 +196,7 @@ export default function Hero() {
               Contact
             </a>
             <a
-              href="/cv.pdf"
+              href="/images/cv.pdf"
               download
               className="flex items-center gap-2 px-5 py-2 bg-cyan-500/70 rounded-xl hover:bg-cyan-500 text-white transition"
             >
