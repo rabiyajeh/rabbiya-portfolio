@@ -64,7 +64,7 @@ export default function About() {
         className="flex items-center justify-center gap-5 mt-8"
       >
         <a
-          href="https://www.linkedin.com/in/YOUR-LINKEDIN"
+          href="https://www.linkedin.com/in/rabbiya-jehangir-8b0a831ab"
           target="_blank"
           rel="noopener noreferrer"
           className="p-3 rounded-full bg-white/5 hover:bg-sky-500/20 border border-white/10 hover:border-sky-400 transition-all"
@@ -73,7 +73,7 @@ export default function About() {
         </a>
 
         <a
-          href="https://github.com/YOUR-GITHUB"
+          href="https://github.com/rabiyajeh"
           target="_blank"
           rel="noopener noreferrer"
           className="p-3 rounded-full bg-white/5 hover:bg-sky-500/20 border border-white/10 hover:border-sky-400 transition-all"
@@ -82,7 +82,7 @@ export default function About() {
         </a>
 
         <a
-          href="/Rabbiya-CV.pdf"
+          href="/images/cv.pdf"
           download
           className="flex items-center gap-2 px-4 py-2 rounded-full bg-sky-500 hover:bg-sky-400 text-white text-sm font-medium transition-all shadow-md hover:shadow-sky-500/20"
         >
