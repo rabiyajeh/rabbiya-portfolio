@@ -205,10 +205,10 @@ export default function Hero() {
           </motion.div>
 
           <motion.div {...fadeUp(0.8)} className="flex gap-4 mt-6 text-2xl text-slate-300">
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="hover:text-cyan-400 transition">
+            <a href="https://github.com/rabiyajeh" target="_blank" rel="noreferrer" className="hover:text-cyan-400 transition">
               <FaGithub />
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" className="hover:text-cyan-400 transition">
+            <a href="https://www.linkedin.com/in/rabbiya-jehangir-8b0a831ab" target="_blank" rel="noreferrer" className="hover:text-cyan-400 transition">
               <FaLinkedin />
             </a>
           </motion.div>
