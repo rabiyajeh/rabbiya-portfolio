@@ -84,14 +84,7 @@ export default function Services() {
                 {/* Description */}
                 <p className="muted mt-2 text-sm">{it.desc}</p>
 
-                {/* Button */}
-                <a
-                  href="#"
-                  className="mt-4 inline-block text-sm px-4 py-1.5 rounded-md border border-white/20 text-white/80 hover:bg-white/10 transition-colors"
-                >
-                  Learn More
-                </a>
-
+               
                 {/* Glow effect */}
                 <div className="absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 transition duration-500 blur-xl bg-gradient-to-r from-white/20 to-transparent"></div>
               </div>
