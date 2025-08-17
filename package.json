@@ -1,6 +1,7 @@
 {
   "name": "rabbiya-portfolio-vite",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -29,6 +30,11 @@
     "autoprefixer": "^10.4.20"
   },
   "engines": {
-    "node": "22.x"
+    "node": "22.x",
+ "vite": "^5.3.4"
+  },
+  "engines": {
+    "node": ">=18"
+
   }
 }
