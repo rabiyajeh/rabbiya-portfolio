@@ -88,7 +88,7 @@ export default function Contact() {
               <FaMapMarkerAlt className="text-blue-400 text-lg" /> Rawalpindi, Pakistan
             </motion.li>
             <motion.li {...floatIcon} className="flex items-center gap-3">
-              <FaLanguage className="text-blue-400 text-lg" /> English, Urdu, French
+              <FaLanguage className="text-blue-400 text-lg" /> English, Urdu, Punjabi
             </motion.li>
           </ul>
         </motion.div>
