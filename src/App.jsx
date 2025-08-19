@@ -11,6 +11,7 @@ import Projects from "./components/Projects.jsx";
 import Articles from "./components/Articles.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
+import Certifications from "./components/Certifications";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -31,6 +32,7 @@ export default function App() {
         <Skills />
         <Journey />
         <Projects />
+         <Certifications />
         <Articles />
         <Contact />
       </main>
